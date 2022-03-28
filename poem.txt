@@ -1,0 +1,1267 @@
+CSA - Computer systems architecture
+1. Match the computer systems generations:
+First generation
+1945-1958
+Second generation
+1958-1964
+Third generation
+1964-1974
+Fourth generation
+1974 – present
+2. Controls the operation of the computer and performs its data processing functions:
+o Main memory
+o I/O
+• CPU
+o System interconnection
+3. What provides storage internal to the CPU?
+• Registers
+o Arithmetic and logic unit
+o CPU interconnection
+o Control unit
+4. ENIAC stands for:
+o Electronical Numerical Integrator And Computer
+o Electronic Numerical Integration Analogue Computer
+• Electronic Numerical Integrator And Computer
+o Electronic Numerical Interaction And Calcuation
+5. The figure reveals that both the control unit and the ALU contain storage, called
+registers, match the definitions:
+Contains a word to be stored in memory or sent to the I/O unit, or is used to receive a word from memory
+or from the I/O unit.
+Memory buffer register (MBR)
+Specifies the address in memory of the word to be written from or read into the MBR.
+Memory address register (MAR)
+Contains the 8-bit opcode instruction being executed.
+Instruction register (IR)
+Employed to hold temporarily the right-hand instruction from a word in memory.
+Instruction buffer register (IBR)
+Contains the address of the next instruction pair to be fetched from memory.
+Program counter (PC)
+Employed to hold temporarily operands and results of ALU operations.
+Accumulator (AC) and multiplier quotient (MQ)
+6. How the central termination point for data channels, the CPU, and memory is called. It schedules
+access to the memory from the CPU and data channels, allowing these devices to act independently.
+o Transistor
+• Multiplexor
+o Integrated circuit
+o Resistors
+o Capacitors
+7. Expand the abbreviation VLSI
+• Very-large-scale integration
+o Very-little-scale integration
+o Very-large-scale interactions
+o Very-large-scale integrator
+8. Which technique allows to processor simultaneously work on multiple instructions?
+o Branch prediction
+o Data flow analysis
+• Pipelining
+o Speculative execution
+9. Using this technique processor looks ahead in the instruction code fetched from
+memory and predicts which groups of instructions are likely to be processed next.
+• Branch prediction
+o Data flow analysis
+o Pipelining
+o Speculative execution
+10.Which technique helps to processor investigates which instructions are dependent
+on each other’s results, or data, to create an optimized schedule of instructions
+o Branch prediction
+• Data flow analysis
+o Pipelining
+o Speculative execution
+11.This technique enables the processor to keep its execution engines as busy as
+possible by executing instructions that are likely to be needed.
+o Branch prediction
+o Data flow analysis
+o Pipelining
+• Speculative execution
+12.The world’s first general-purpose microprocessor. It was used in the first personal
+computer, the Altair.
+o 8070
+• 8080
+o 8086
+o 8090
+13.Which of the following laws deals with the potential speedup of a program using
+multiple processors compared to a single processor.
+o Moor’s Law
+o Little’s Law
+o Murphy's law
+• Amdahl’s law
+14.Match the letters with the right name of the Computer Components: Top-Level View:
+A
+IR -Instruction register
+B
+MAR-Memory address registers
+C
+I/O Input/output address register
+D
+I/O Module
+E
+Main memory
+15.The processor responds by suspending operation of the current program, branching
+off to a program to service that particular I/O device, known as _________________,
+and resuming the original execution after the device is serviced. Which of the
+following will be the missing word:
+• interrupt handler
+o interrupt cycle
+o disabled interrupt
+o interrupt request
+16.What is the data line?
+• provide a path for moving data among system modules
+o is used to designate the source or destination of the data on the data bus
+o is used to control the access to and the use of the data and address lines
+o indicates that a module needs to gain control of the bus
+17. What is used to manage the access to and the use of the data and address lines?
+o address bus
+• control lines
+o memory write
+o bus grant
+o address lines
+18.Bus lines can be separated into two generic types:
+• Dedicated
+o Centralized
+o Distributed
+• Multiplexed
+o Synchronous
+o Asynchronous
+19.PCI stands for:
+o Power Control Interface
+• Peripheral component interconnect
+o Property Casualty Insurers
+o Programmable Communications Interface
+20.The methods of accessing units of data:
+• Sequential access
+o Pseudo access
+• Direct access
+o Indirect access
+o Single access
+• Random access
+• Associative access
+21.Match the letters on the picture with right name of the cash memory component’s
+names:
+A
+Processor
+B
+Cache
+C
+Data
+D
+Address
+E
+Address buffer
+F
+Data buffer
+22.What kind of memory type stores data using virtual addresses:
+o Logical
+• Virtual
+o Peripheral
+o Main
+o Buffer
+23.Amdahl’s law:
+o Speed up= 1/(1 + f ) * f/N
+o Speed up= 1/(1 - f ) * f/N
+o Speed up= 1/(1 - f ) - f/N
+• Speed up= 1/(1 - f ) + f/N
+o Speed up= 1/(1 + f ) + f/N
+24.AMAT stands for:
+• Average memory access time
+o Automatic Message Accounting Transmitter
+o Asymptotic Mean Acquisition Time
+o Absolute memory access time
+25._____________ is a special purpose system that is used to perform one or few
+dedicated functions.
+o Distributed systems
+• Embedded systems
+o Ultra-Large-Scale Systems
+o Centralized systems
+o Ubiquitous systems
+26.Microprocessor can’t do all the functions of a computer system on its own
+27.Match the statements with the right architecture
+Von Neumann
+One memory for data and program, with one bus for both
+Von Neumann
+CPU provides address to get data or instructions
+Von Neumann
+Data and instructions must have the same width
+Harvard
+Separate program and data memories and separate busses, can be accessed
+simultaneously
+Harvard
+Separated buses allow one instruction to execute while the next instruction is fetched
+Harvard
+Data and instructions mustn’t have the same width
+28.How many generations semiconductor memory has been through, since 1970?
+(please write number)
+• 13
+29.MIC stands for:
+o mini integrated core
+• many integrated core
+o main integrated core
+o many interaction core
+o main interaction core
+30.Clock Frequency of SDRAM is equal to:
+o 200
+o 600
+o 300
+• 166
+o 156
+31.An instruction pipeline increases the performance of a processor by overlapping the
+processing of several different instructions. How many stages it is consist of:
+o 6
+o 3
+• 5
+o 7
+o 4
+32.There are three types of hazards that can happen while pipelined execution. Match
+the hazards with their definitions:
+Structural hazards
+ different instructions in different stages (or the same stage) conflicting for the same resource
+Data hazards
+ an instruction cannot continue because it needs a value that has not yet been generated by an
+earlier instruction
+Control hazards
+fetch cannot continue because it does not know the outcome of an earlier branch – special
+case of a data hazard
+33._____________ is the amount of time it takes the program to perform in seconds
+o Elapsed time
+o Overall time
+o Estimate time
+• Execution time
+o Process time
+34.How many number systems are exist?
+• 4
+o 3
+o 2
+o 1
+o 5
+35.Basic memory elements hold only two states: Zero / One
+• True
+o False
+36.Which of the following is the right result for this operation: 11001+110001=
+o 10101010
+o 10101110
+• 01001010
+o 01100110
+o 10001010
+37.Convert decimal 230 to the binary:
+o 011000110
+• 011100110
+o 101100110
+o 011100110
+38.Convert binary 1100111 to decimal:
+• 103
+o 100
+o 95
+o 130
+o 110
+39.A single, self-contained transistor is called ________.
+o integrated circuit
+o microchip
+• discrete component
+o single transistor
+o small-scale integration
+40.GPU stands for:
+o graphical processing unit
+o graphical performing units
+• graphics processing units
+o graphics processing utility
+41.What measures the ability of a computer to complete a single task?
+o Clock rate
+• Speed metric
+o Clock speed
+o Clock cycle
+o Execution speed
+42.Convert hexadecimal value: DAD to decimal:
+o 3500
+• 3501
+o 4501
+o 4500
+o 3503
+43.Convert decimal value: 877 to hexadecimal:
+• 36D
+o 38A
+o 36B
+o 38C
+o 36A
+44.How we call the thing that is connects major computer components (processor,
+memory, I/O)?
+o System connector
+o System controllers
+• System bus
+o System interconnector
+45.Match the three performance parameters with their definitions
+Access time (latency)
+This is the time it takes to perform a read or write operation, that is, the time from the
+instant that an address is presented to the memory to the instant that data have been
+stored or made available for use
+Memory cycle time
+This concept is primarily applied to random-access memory and consists of the access
+time plus any additional time required before a second access can commence.
+Transfer rate
+This is the measurement at which data can be transferred into or out of a memory unit
+46.Which of the following is the result of the binary multiplication: 100010*100101=
+o 11011101010
+o 10111101010
+o 10010001010
+o 10010101010
+• 10011101010
+47.Convert the binary value: 111011 to decimal
+• 59
+o 58
+o 56
+o 60
+o 69
+48.DRAM stands for:
+o Direct random access memory
+o Dynamic random accessible memory
+o Dynamical random access memory
+• Dynamic random access memory
+o Discrete random access memory
+49.How is called the permanent physical defect when the memory cell or cells affected
+cannot reliably store data but become stuck at 0 or 1 or switch erratically between 0
+and 1?
+o Soft error
+o Hard error
+• Hard failure
+o Soft failure
+o Epic failure
+50.How is called a random, nondestructive event that alters the contents of one or more
+memory cells without damaging the memory?
+• Soft error
+o Hard error
+o Hard failure
+o Soft failure
+o Epic failure
+51.Choose the feature(s) of first generation computer architecture
+o Magnetic core memory
+o Semiconductor memory
+o Machine code
+• Vacuum tubes
+• Assembly language
+52.Choose the feature(s) of third generation computer architecture
+o Object-Oriented programming
+o Floating point arithmetic
+o Graphics
+• Timesharing
+• Use of cache memory
+53.Choose the feature(s) of second generation computer architecture
+• High level languages
+• Transistors
+o 2 Kb memory, 10 KIPS
+o 2 Mb memory, 5 MIPS
+o Different types of supported instructions
+54.Choose the feature(s) of fourth generation computer architecture
+• Object-Oriented programming
+• Wide spread use of data communications
+• Smallest in size
+o Use of cache memory
+o Use of drum memory or magnetic core memory
+55.How many generations of computer architecture are there?
+• 4
+o 3
+o 2
+o 1
+o 5
+56.Choose the years of the first generation computer architecture
+o 1958-1964
+o 1964-1974
+o 1974-present
+o 1945-1964
+• 1945-1958
+57.Choose the years of the second generation computer architecture
+o 1945-1958
+o 1964-1974
+o 1974-present
+o 1945-1964
+• 1958-1964
+58.In 1976 Apple II computer model was released
+o True
+• False
+59.IBM System/360 Model 91 was introduced in 1966
+• True
+o False
+60.Choose two types of models for a computing machine
+• Harvard architecture
+• Von Neumann architecture
+o Oxford architecture
+o Stanford architecture
+61. How many number systems are there?
+o 1
+o 2
+o 3
+• 4
+62. How a binary digit is called?
+o byte
+o digit
+o kilobyte
+• bit
+63. Four bits make octal digit
+o True
+• False
+64. Three bits make hexadecimal digit
+o True
+• False
+65.Octal and hexadecimal numbers are hard on use and conversion
+o True
+• False
+66. Which digits are used in octal number system?
+• 0-7
+o 0 and 1
+o 0-9
+o All digits
+67. What does CPI stand for?
+• Cycles Per Instruction
+o Clocks Per Instruction
+o Cycles Per Interface
+o Clocks Per Interface
+68. What is time elapsed to program execution?
+o CPU Time
+o User time + OS Time
+o I/O waiting & Other programs
+• CPU Time + I/O waiting & Other programs
+69. The execution time of a program clearly depends on the number of instructions
+o True
+• False
+70. The more clock rate of processor, the faster is processor
+o True
+• False
+71. CPU Time = I * CPI / R. Which parameter requires special profiling software?
+o Cycles Per instruction
+o Clock Rate
+• Numbers of instructions
+o Execution time
+72. Select the correct interpretation(s) of Amdahl's Law
+o is used to compare computers' performance
+o is used calculate the execution time of a program
+• is used to find the maximum expected improvement
+• it means that it is the algorithm that decides the speedup not the number of processors
+73. Into how many parts a program (or algorithm) which can be parallelized can be split
+up?
+o 3
+o 4
+o 5
+• 2
+74. The time interval is called a clock rate
+o True
+• False
+75.What does LRU stand for?
+o Least Right Used
+o Last Recently User
+o Last Recently Used
+• Least Recently Used
+76.Static RAM has a reduced power consumption, and a large storage capacity
+o True
+• False
+77. How a memory unit accessed by contents is called?
+• Associative Memory
+• Content Addressable Memory
+o Auxiliary Memory
+o Cache Memory
+o Virtual Memory
+78. Choose the access method(s)
+o Parallel Access
+o Indirect Access
+• Random Access
+• Direct Access
+• Sequential Access
+79. ROM is the place in a computer where the operating system, application programs,
+and data in current use are kept.
+o True
+• False
+80. In which cache memory mapping technique any block from main memory can be
+placed anywhere in the cache?
+• Associative Mapping
+o Set Associative Mapping
+o Direct Mapping
+81. In LRU replacement algorithm, the block that is in the cache longest is replaced
+o True
+• False
+82.In which cache memory mapping technique any memory block is mapped to exactly
+one block in the cache?
+• Direct Mapping
+o Set Associative Mapping
+o Associative Mapping
+83.In which cache memory mapping technique any memory block mapped to subset of
+cache locations?
+• Set Associative Mapping
+o Direct Mapping
+o Associative Mapping
+84. Which type of memory accessed via the input/output channels?
+o Main Memory
+o Cache Memory
+o Virtual Memory
+• Auxiliary Memory
+• Secondary Memory
+85. Which type of memory stores frequently used data?
+o Main Memory
+o Virtual Memory
+o Auxiliary Memory
+o Secondary Memory
+• Cache Memory
+86. Choose the right formula for AMAT
+o AMAT = Hit time + Miss rate + Miss penalty
+o AMAT = Hit time * Miss rate + Miss penalty
+o AMAT = Hit time * Miss rate * Miss penalty
+• AMAT = Hit time + Miss rate * Miss penalty
+87. Choose the definition for compulsory misses
+o Occurs if the cache cannot contain all the blocks needed during execution of a program
+o Occurs if the block placement strategy is not fully associative
+• The very first access to a block cannot be in the cache
+88. Choose the definition for capacity misses
+• Occurs if the cache cannot contain all the blocks needed during execution of a program
+o The very first access to a block cannot be in the cache
+o Occurs if the block placement strategy is not fully associative
+89. Choose the definition for conflict misses
+• Occurs if the block placement strategy is not fully associative
+o Occurs if the cache cannot contain all the blocks needed during execution of a program
+o The very first access to a block cannot be in the cache
+90. Select cache optimizations to reduce miss penalty
+• Multilevel Caches
+• Giving Reads Priority over Writes
+o Way Prediction
+o Higher associativity
+91.Select cache optimizations to increase the Cache Bandwidth
+• Nonblocking Caches
+• Multibanked Caches
+• Pipelined Cache Access
+o Multilevel Caches
+o Small and Simple First-Level Caches
+92.In virtual memory, memory can be used efficiently because a section of program
+always loaded
+o True
+• False
+93. The advantage of virtual memory is that it takes less time to switch between
+applications because of additional memory
+o True
+• False
+94. Choose basic cache optimizations
+o Compiler-Controlled Prefetching
+o Nonblocking Caches
+o Small and Simple First-Level Caches
+• Multilevel Caches
+• Avoiding Address Translation during Cache Indexing
+95. Choose advanced cache optimizations
+o Giving Reads Priority over Writes
+o Larger Cache Size
+• Hardware Prefetching of Instructions and Data
+• Merging Write Buffer
+• Critical Word First and Early Restart
+96. Select cache optimizations to reduce hit time (both basic and advanced)
+• Avoiding Address Translation during Cache Indexing
+• Small and Simple First-Level Caches
+• Way Prediction
+o Compiler Optimizations
+o Compiler-Controlled Prefetching
+97. Physical address used by program, and which OS must translate into virtual address
+o True
+• False
+98. Process of instruction execution is divided into two or more steps, called
+o pipelining
+• pipe stages
+• pipe segments
+o instruction execution
+o pipeline hazard
+99. Pipelining can only be implemented on hardware
+o True
+• False
+100. Choose hazard for the following definition: different instructions in different
+stages (or the same stage) conflicting for the same resource
+• Structural
+o Data
+o Control
+101. Choose hazard for the following definition: an instruction cannot continue because
+it needs a value that has not yet been generated by an earlier instruction
+• Data
+o Structural
+o Control
+102. Choose hazard for the following definition: fetch cannot continue because it does
+not know the outcome of an earlier branch – special case of a data hazard
+• Control
+o Structural
+o Data
+103. A technique used in advanced microprocessors where the microprocessor begins
+executing a first instruction before the second has been completed is called
+pipelining
+o True
+• False
+104. Stage in which the instruction is fetched from memory and placed in the
+instruction register called
+o Memory read/write
+o Instruction Decode
+o Execution
+o Write Back
+• Instruction Fetch
+105. Which stage is responsible for storing and loading values to and from memory?
+o Instruction Fetch
+• Memory read/write
+o Instruction Decode
+o Execution
+o Write Back
+106. How the stage in which the results of the operation are written to the destination
+register is called?
+o Instruction Fetch
+• Write Back
+o Instruction Decode
+o Execution
+o Memory read/write
+107. In execution stage identification of the operation is performed
+o True
+• False
+108. Choose data dependences
+o Read-After-Read
+• Read-After-Write
+• Write-After-Write
+• Write-After-Read
+109. Halting the flow of instructions until the required result is ready to be used is
+called
+o waiting
+o delaying
+o halting
+• stalling
+110. A common measure of performance for a processor is the rate at which
+instructions are executed, called
+o CPI
+o Clock Rate
+o MFLOPS
+• MIPS
+111. Floating point performance is expressed as
+o CPI
+o FLOPS
+o MIPS
+• MFLOPS
+112. Choose the key characteristics of computer memory systems
+• Location
+• Unit of Transfer
+• Access Method
+o Stalling
+o Hazards
+113. Choose the key characteristics of computer memory systems
+• Capacity
+• Performance
+• Organization
+o Instruction Fetch
+o Instruction Decode
+114. Choose the key characteristics of computer memory systems
+• Physical Type
+• Physical Characteristics
+• Access Method
+• Unit of Transfer
+• Performance
+115. Word is the “natural” unit of organization of memory
+• True
+o False
+116. The “natural” unit of organization of memory is called block
+o True
+• False
+117. After implementing embedded systems, you can easily use them for another
+purposes
+o True
+• False
+118. Digital circuits are inflexible and slower, because they are technology dependent
+o True
+• False
+119. When using microprocessor based systems, it is enough to update the software
+• True
+o False
+120. For random-access memory, the time it takes to perform a read or write operation
+is called
+o Clock Rate
+o CPI
+• Access Time
+• Latency
+121. The rate at which data can be transferred into or out of a memory unit is called
+o Transfer time
+• Transfer Rate
+o MIPS
+o FLOPS
+o MFLOPS
+122. The particular block is currently being stored is called tag
+• True
+o False
+123. How many elements of cache design are there?
+o 2
+o 5
+o 4
+o 6
+• 7
+124. Choose the element(s) of cache design
+o Tag
+o Latency
+o AMAT
+• Mapping Function
+• Replacement Algorithm
+• Number of Caches
+125. Choose the element(s) of cache design
+o Tag
+o Latency
+o AMAT
+• Cache Size
+• Line Size
+• Number of Caches
+126. There are three types of cache addresses
+o True
+• False
+127. There are two types of mapping functions
+o True
+• False
+128. We can find needed block in associatively mapped cache by its block address
+o True
+• False
+129. How many access methods are there?
+• 3
+o 2
+o 4
+o 5
+o 6
+130. Choose the type(s) of auxiliary memory
+• Flash Memory
+• Optical Disk
+o Hard Drive
+o SSD
+o RAM
+131. How many performance factors are there
+• 5
+o 4
+o 3
+o 2
+o 6
+132. Choose the performance factor(s)
+o Cache Size
+o Line Size
+• Instruction Count
+• Number of Processor Cycles
+o Mapping function
+o Latency
+133. Choose the performance factor(s)
+o Cache Size
+o Line Size
+• Instruction Count
+• Number of Processor Cycles
+• Number of memory references
+134. Choose the system attribute(s) by which the performance factors are influenced
+o Cache size
+o Unit of Transfer
+• Compiler Technology
+• Processor Implementation
+• Cache and memory hierarchy
+135. How many physical characteristics of disk systems are there?
+o 4
+• 5
+o 2
+o 3
+o 6
+136. Choose the physical characteristic(s) of disk systems
+o Disk system implementstion
+o Disk Size
+• Head Mechanism
+• Platters
+• Sides
+137. Choose the physical characteristic(s) of disk systems
+o Disk system implementstion
+o Disk Size
+• Head Mechanism
+• Head Motion
+• Disk Portability
+138. What does RAID stand for?
+o Random Array of Independent Disks
+• Redundant Array of Independent Disks
+o Redundant Array of Interoperable Disks
+o Random Access to Independent Disks
+139. The RAID scheme consists of 7 levels
+• True
+o False
+140. Choose the components of SSD
+• Controller
+• Addressing
+• Data buffer/cache
+o Data size
+o Memory hierarchy
+141. SSD is over 10 times faster than the spinning disks in HDD
+• True
+o False
+142. SSDs are susceptible to mechanical wear
+o True
+• False
+143. SSDs are more susceptible to physical shock and vibration
+o True
+• False
+144. SSD stands for
+• Solid State Drive
+o Solid State Driver
+o Speed State Drive
+o Speed State Driver
+145. Choose the component of SSD for the following definition: provides SSD device level
+interfacing and firmware execution
+• Controller
+o Addressing
+o Data buffer/cache
+o Error correction
+o Flash memory components
+146. Choose the component of SSD for the following definition: Logic for error detection and
+correction
+• Error Correction
+o Addressing
+o Data buffer/cache
+o Controller
+o Flash memory components
+147. Choose the component of SSD for the following definition: Individual NAND flash chips
+• Flash Memory Components
+o Addressing
+o Data buffer/cache
+o Controller
+o Error Correction
+148. Choose the component of SSD for the following definition: Logic that performs
+the selection function across the flash memory components
+• Addressing
+o Flash Memory Components
+o Data buffer/cache
+o Controller
+o Error Correction
+149. Choose the component of SSD for the following definition: High speed RAM
+memory components used for speed matching and to increased data throughput
+• Data buffer/cache
+o Flash Memory Components
+o Addressing
+o Controller
+o Error Correction
+150. The basic element of a semiconductor memory is the memory cell
+• True
+o False
+151. How external nonvolatile memory is called?
+• Secondary memory
+o Main memory
+o Cache memory
+o Virtual memory
+152. What is included into physical type characteristic of computer memory systems?
+• Semiconductor
+• Magnetic
+o Word
+o Access Time
+o Number of bytes
+153. What is included into performance characteristic of computer memory systems?
+• Access time
+• Cycle Time
+• Transfer Rate
+o Word
+o Number of bytes
+o Number of words
+154. What does IDE stand for?
+• Integrated Development Environment
+155. Choose the characteristics of CISC processors
+• large number of instructions
+• support many addressing modes
+• more elaborate way of accessing data
+o less number of instructions
+o instructions are of fixed length
+o few addressing modes
+156. Choose the characteristics of RISC processors
+• less number of instructions
+• instructions are of fixed length
+• few addressing modes
+o large number of instructions
+o support many addressing modes
+o more elaborate way of accessing data
+157. Choose the characteristics of Von Neumann architecture
+• one memory for data and program
+• CPU provides address to get data or instructions
+• data and instructions must have the same width
+o separate busses, can be accessed simultaneously
+o separated buses allow one instruction to execute while the next instruction is fetched
+o data and instructions mustn’t have the same width
+158. Choose the characteristics of Harvard architecture
+• separate program and data memories
+• separated buses allow one instruction to execute while the next instruction is fetched
+• data and instructions mustn’t have the same width
+o one memory for data and program
+o CPU provides address to get data or instruction
+o data and instructions must have the same width
+159. Which of the following architectures differs by memory accessing?
+• Von Neumann
+• Harvard
+o Complex Instruction Set Computers
+o Reduced Instruction Set Computers
+160. Choose the correct answer for the following characteristics: 1. Depend mainly on its
+peripherals 2. Used for a few dedicated functions 3. Usually used as a part of a larger system
+• Microcontroller
+o General purpose microprocessor
+161. Choose the correct syntax of assembly statements
+• name operation operand(s) comments
+o operation name operand(s) comments
+o operation operand(s) name comments
+o comments name operation operand(s)
+162. The assembler translates names into memory addresses
+• True
+o False
+163. Name field of assembly statement is not case sensitive
+• True
+o False
+164. Choose the legal name(s) in assembly
+• @variable_name
+• variable?
+o variable&name
+o variable name
+o 1variable
+165. In two-operand instruction, the first operand is source and the second operand is
+destination
+o True
+• False
+166. An instruction may have one or more operands
+o True
+• False
+167. In assembly language you can express data only in binary and decimal
+o True
+• False
+168. You should use a radix symbol in order to differentiate between binary, octal or
+hexadecimal
+• True
+o False
+169. Which symbol you should use to leave the variable uninitialized
+• ?
+o !
+o @
+o $
+170. In assembly language, you can skip the name of variable
+• True
+o False
+171. Choose the correct syntax of variable declaration in assembly
+• variable_name type initial_value
+o type variable_name initial_vaule
+o variable_name type initial_value
+o type initial_value variable_name
+172. Match the memory models in assembly
+Small
+code in one segment, data in one segment
+Medium
+code in more than one segment, data in one segment
+Compact
+code in one segment, data in more than one segment
+Large
+both code and data in more than one segments, no array larger than 64kb
+Huge
+both code and data in more than one segments, array may be larger than 64kb
+173. Choose the definition of code segment in assembly
+• Contains a program’s instructions
+o A block of memory to store a stack
+o All variable definitions
+174. Choose the definition of data segment in assembly
+• All variable definitions
+o A block of memory to store a stack
+o Contains a program’s instructions
+175. Choose the definition of stack segment in assembly
+• A block of memory to store a stack
+o All variable definitions
+o Contains a program’s instructions
+176. There is no memory allocated for constants in assembly language
+• True
+o False
+177. Which keyword you should use in order to define a constant in assembly language
+• EQU
+o DD
+o CONST
+o EQ
+o DW
+178. In assembly statement name and comment are mandatory
+o True
+• False
+179. How many deadlock recovery algorithms are there?
+• 4
+o 3
+o 2
+o 5
+o 1
+180. There are 3 approaches of deadlock avoidance
+o True
+• False
+181. There are 2 policies of deadlock prevention
+• True
+o False
+182. Choose the correct approach for the following definition "involves recognizing when
+deadlock has occurred, and trying to recover"
+• Deadlock detection and recovery
+o Deadlock avoidance
+o Deadlock prevention
+183. Choose the correct approach for the following definition "involves making dynamic choices
+that guarantee prevention"
+• Deadlock avoidance
+o Deadlock prevention
+o Deadlock detection and recovery
+184. Choose the correct approach for the following definition "adopting a static policy that
+disallows one of the four conditions above"
+• Deadlock prevention
+o Deadlock detection and recovery
+o Deadlock avoidance
+185. There are 4 approaches of dealing with deadlock
+o True
+• False
+186. Choose the correct answer for the following definition "A closed chain of processes exists,
+such that each process is blocked waiting for a resource held by another process in the set"
+• Circular wait
+o Mutual exclusion
+o No preemption
+o Hold and wait
+187. Choose the correct answer for the following definition: "No process can be forced to release
+a resource"
+• No preemption
+o Mutual exclusion
+o Hold and wait
+o Circular wait
+188. Choose the correct answer for the following definition "A process may hold some resources
+while waiting for others"
+• Hold and wait
+o Mutual exclusion
+o Circular wait
+o No pre-emption
+189. Choose the correct answer for the following definition "Only one process may use a resource
+at one time"
+• Mutual exclusion
+o Circular wait
+o No preemption
+o Hold and wait
+190. How many policy conditions for deadlock to be possible are there?
+• 3
+o 4
+o 2
+o 5
+o 1
+191. What is the deadlock?
+• Permanent blocking of a set of processes that either compete for global resources or
+communicate with each other
+o Interleaving of processes in time to give the appearance of simultaneous execution
+o When one process is inside a critical section of code, other processes must be prevented from
+entering that section
+o Processes “communicate” via global counters that are initialized to a positive integer and that
+can be accessed only through two atomic operations
+192. Deadlock occurs when each process in the set is blocked awaiting an event that
+can be triggered only by another blocked process in the set
+• True
+o False
+193. In which of the following approaches there is no shared data?
+• Message passing
+o Mutual exclusion
+o Monitors
+o Semaphores
+194. Choose the correct answer for the following definition "Synchronization between processes
+is defined by the blocking policy attached to the sending and receiving of messages"
+• Message passing
+o Mutual exclusion
+o Monitors
+o Semaphores
+195. Monitors are similar to classes in java and has methods and fields
+• True
+o False
+196. In atomic operations semSignal(x) and semWait(x), what is the 'x'?
+• The number of processes that can execute critical section
+o The number of processes
+o The number of monitors
+o No correct answer
+197. When using semaphores, processes communicate using messages
+o True
+• False
+198. We can implement mutex through the OS or using programming languages
+• True
+o False
+199. How many approaches of mutex implementation are there?
+• 3
+o 4
+o 2
+o 5
+o 1
+200. Choose the correct answer for the following definition "When one process is inside a critical
+section of code, other processes must be prevented from entering that section"
+• Mutual exclusion
+o Semaphores
+o Monitors
+o Message passing
+o Critical section
+201. In concurrency optimal allocation of resources is difficult
+• True
+o False
+202. In concurrency, locating programming errors can't be difficult, because the
+contexts in which errors occur cannot always be reproduced easily
+o True
+• False
+203. In concurrency, sharing global resources safely is difficult
+• True
+o False
+204. Concurrency offers genuine simultaneous execution
+o True
+• False
+205. Parallelism is interleaving of processes in time to give the appearance of
+simultaneous execution
+o True
+• False
+206. Choose the correct answer for the following definition "multiple processes on multiple
+systems"
+• Distributed processing
+o Multiprogramming
+o Multiprocessing
+207. Choose the correct answer for the following definition "multiple processes on a system with
+multiple processors"
+• Multiprocessing
+o Multiprogramming
+o Distributed processing
+208. Choose the correct answer for the following definition "multiple processes on a system with
+a single processor"
+• Multiprogramming
+o Multiprocessing
+o Distributed processing
+209. How many categories of process management are there?
+• 3
+o 2
+o 4
+o 5
+o 1
+210. Operations performed by a processor, such as fetching an instruction, decoding the
+instruction, performing an arithmetic operation, and so on, are governed by:
+• a system clock
+o a system processor
+o a clock processor
+o a processor
+o a clock
+211. Typically all operations performed by a processor begin with the:
+• pulse of the clock
+o pulse of the processor
+o it begins by itself
+o both of clock and processor pulse
+o none of the above
+212. The time between pulses called?
+• Cycle time
+o Clock speed
+o Clock rate
+o Clock cycle
+213. A processor is driven by a clock with a constant frequency f or, equivalently, a constant
+cycle time t, where t = 1/f:
+• Instruction execution rate
+o Instruction execution cycle
+o Instruction execution time
+o Instruction execution period
+o None of the above
+214. Measures such as MIPS and MFLOPS have proven adequate to evaluating the performance
+of processors.
+• False
+o True
+215. ENIAC stands for:
+• Electronic Numerical Integrator and Computer
+o Electronic Nuclear Integrator and Computer
+o Encapsulation Numerical Integrator and Commerce
+o Encapsulation Numerical Integrator and Computer
+o Electronic Numerical Integer and Computer
+216. Contains a word to be stored in memory or sent to the I/O unit, or is used to receive a word
+from memory or from the I/O unit
+• Memory buffer register (MBR)
+o Memory address register (MAR)
+o Instruction register (IR)
+o Instruction buffer register (IBR)
+o Program counter (PC)
+217. Specifies the address in memory of the word to be written from or read into the MBR
+• Memory address register (MAR)
+o Memory buffer register (MBR)
+o Instruction register (IR)
+o Instruction buffer register (IBR)
+o Program counter (PC)
+218. Contains the 8-bit opcode instruction being executed
+• Instruction register (IR)
+o Memory buffer register (MBR)
+o Memory address register (MAR)
+o Instruction buffer register (IBR)
+o Program counter (PC)
+219. Employed to hold temporarily the right-hand instruction from a word in memory
+• Instruction buffer register (IBR)
+o Memory buffer register (MBR)
+o Memory address register (MAR)
+o Instruction register (IR)
+o Program counter (PC)
+220. Contains the address of the next instruction pair to be fetched from memory
+• Program counter (PC)
+o Memory buffer register (MBR)
+o Memory address register (MAR)
+o Instruction register (IR)
+o Instruction buffer register (IBR)
+221. The use of the _______ defines the second generation of computers.
+• Transistor
+o Vacuum tube
+o Small and medium-scale integration
+o Large-scale integration
+o Very-large-scale integration
+222. The use of the _______ defines the first generation of computers.
+• Vacuum tube
+o Transistor
+o Small and medium-scale integration
+o Large-scale integration
+o Very-large-scale integration
+223. The use of the _______ defines the third generation of computers.
+• Small and medium-scale integration
+o Transistor
+o Vacuum tube
+o Large-scale integration
+o Very-large-scale integration
+224. RAID stands for
+• Redundant Array Independent Disk
+o Random Access Integral Disk
+o Redundant Access Integral Disk
+o Random Array Independent Disk
+o Redundant Access Independent Disk
+225. The basic element of a semiconductor memory is:
+• Memory cell
+o Cache memory
+o RAM
+o DRAM
+o None of the above
+226. A state in which data requested for processing by a component or application is found in the
+cache memory
+• Cache hit
+o Cache miss
+o Cache set
+o Cache overwrites
+o Cache access time
+227. For random-access memory, this is the time it takes to perform a read or write operation
+• Access time
+o Memory cycle time
+o Transfer rate
+o Performance
+o All of the above
+228. Memory is organized into units of data, called records; access must be made in a specific
+linear sequence
+• Sequential access
+o Word
+o Addressable units
+o Unit of transfer
+o Direct access
+229. The “natural” unit of organization of memory
+• Word
+o Sequential access
+o Addressable units
+o Unit of transfer
+o Direct access
+230. Moore’s law: “The cost of a chip has remained virtually unchanged during this period of
+rapid growth in density. This means that the cost of computer logic and memory circuitry has
+increasing at a dramatic rate”
+• False
+o True
+231. Moore’s law: “Because logic and memory elements are placed closer together on more
+densely packed chips, the electrical path length is shortened, decreasing operating speed”
+• False
+o True
+232. Moore’s law: “The computer becomes smaller, making it more convenient to place in a
+variety of environments”
+• True
+o False
+233. Moore’s law: “There is a reduction in power and cooling requirements”
+• True
+o False
+234. Moore’s law: “The interconnections on the integrated circuit are much more reliable than
+solder connections. With less circuitry on each chip, there are fewer interchip connections”
+• True
+o False
+235. Processor can simultaneously work on multiple instructions. How this technique called?
+• Pipelining
+o Branch prediction
+o Data flow analysis
+o Speculative execution
+o None of the above
+236. The L2 cache is slower and typically larger than the L1 cache, and the L3 cache is slower
+and typically larger than the L2 cache
+• True
+o False
+237. The L2 cache is faster and typically larger than the L1 cache, and the L3 cache is slower and
+typically larger than the L2 cache
+• False
+o True
